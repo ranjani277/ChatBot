@@ -5,8 +5,8 @@ This project is a Streamlit web based application for querying information from 
 various components from the langchain library for natural language processing tasks, and dotenv for loading environment variables.
 
 2.Loading Environment Variables: The Google API key is loaded from the environment variables.
-**
-3.Function Definitions:**
+
+**3.Function Definitions:**
 
 > get_pdf_text(pdf_docs): This function extracts text from PDF documents.
 > get_text_chunks(text): Splits the text into smaller chunks.
@@ -20,8 +20,8 @@ Sets up the Streamlit page configuration and header.
 Provides a text input box for users to ask questions.
 When a question is submitted, it processes the uploaded PDF files, extracts text, generates text chunks, creates a vector store,
 and then processes the user's question to provide a response.
-**
-5.Streamlit Interface:**
+
+**5.Streamlit Interface:**
 
 Users can upload PDF files and ask questions about the content.
 Once files are uploaded and the "Submit & Process" button is clicked, the system processes the PDF files and makes them available for querying.
